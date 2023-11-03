@@ -33,14 +33,14 @@ jobs:
     - name: RUN SuperTest API Testing
       run: npm test
       
-    - name: Archive SuperTest mochawsome test report
+    - name: Archive SuperTest mochawesome test report
       uses: actions/upload-artifact@v3
       with:
-        name: SuperTest-mochawsome-test-report
+        name: SuperTest-mochawesome-test-report
         path: Report
 
-    - name: Upload SuperTest mochawsome report to GitHub
+    - name: Upload SuperTest mochawesome report to GitHub
       uses: actions/upload-artifact@v3
       with:
-        name: SuperTest-mochawsome-test-report
+        name: SuperTest-mochawesome-test-report
         path: Report
