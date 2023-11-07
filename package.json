@@ -4,7 +4,8 @@
   "description": "a SuperTest API automation testing demo project with Mocha",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "NODE_ENV=test mocha",
+    "dev": "NODE_ENV=dev mocha"
   },
   "keywords": [],
   "author": "",
